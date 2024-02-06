@@ -114,8 +114,8 @@ validate_val_list_lengths() {
 # Function to display usage and exit
 usage() {
     echo ""
-    echo "Usage 1: $0 [--hyper_param=value] [--base_val=value] [--delta=value] [--mode=mode] [--num_iter=value] [--train_script=path]"
-    echo "Usage 2: $0 [--hyper_param_list=[param1,param2,...]] [--val_list=[[val1,val2,...],[val3,val4,...],...]]"
+    echo "Usage 1: $0 --hyper_param=value --base_val=value --delta=value --mode=mode --num_iter=value --train_script=path"
+    echo "Usage 2: $0 --hyper_param_list=[param1,param2,...] --val_list=[[val1,val2,...],[val3,val4,...],...]] --train_script=path"
     echo "This script tunes a given hyperparameter by incrementing its value over a number of iterations and logs the results(Usage 1)"
     echo "This script tunes given list of hyperparameters by iterating over the lists of values and logs the results(Usage 2)"
     echo ""
