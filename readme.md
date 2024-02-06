@@ -9,7 +9,7 @@ To get started, you'll need to install the required Python package. Run the foll
 pip install argparse
 ```
 Also, the appropriate level of permission should be given to `tuning_script.sh`  
-Just type the following command
+Just type the following command:
 ```
 chmod +x tuning_script.sh
 ```
