@@ -3,10 +3,15 @@
 ## Description
 Hyperparameter Searching Automation using a bash script.
 
-## Installation Instructions
+## Installation Instructions & Required Permissions
 To get started, you'll need to install the required Python package. Run the following command:
 ```
 pip install argparse
+```
+Also, appropriate level of permission should be given to `tuning_script.sh`
+Just type the following command
+```
+chmod +x tuning_script.sh
 ```
 
 ## Usage
