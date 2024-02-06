@@ -5,9 +5,9 @@ Hyperparameter Searching Automation using a bash script.
 
 ## Installation Instructions
 To get started, you'll need to install the required Python package. Run the following command:
-
+```
 pip install argparse
-
+```
 
 ## Usage
 This script is designed to be straightforward to use, with detailed instructions available via the `--help` option. Below are the steps to utilize this script effectively:
