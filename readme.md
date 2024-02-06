@@ -35,6 +35,7 @@ This script is designed to be straightforward to use, with detailed instructions
      ./tuning_script.sh --hyper_param_list=[SMOOTHING,NUM_QUERY] --val_list=[[1,2],[3,4]] --train_script=example.py
      ```
    For more detailed information on the script's options, simply run `./tuning_script.sh`.
+4. All the test results will be stored in a subdirectory './result'. If './result' doesn't exist, it will automatically be created.
 
 ## Note
 I hope you find this script useful for your hyperparameter tuning tasks!
