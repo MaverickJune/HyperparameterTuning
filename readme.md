@@ -30,6 +30,8 @@ This script is designed to be straightforward to use, with detailed instructions
    - **Real Usage Examples** 
      ```
      ./tuning_script.sh --hyper_param=SMOOTHING --base_val=1 --delta=2 --mode=2 --num_iter=10 --train_script=example.py
+     ```
+     ```
      ./tuning_script.sh --hyper_param_list=[SMOOTHING,NUM_QUERY] --val_list=[[1,2],[3,4]] --train_script=example.py
      ```
    For more detailed information on the script's options, simply run `./tuning_script.sh`.
