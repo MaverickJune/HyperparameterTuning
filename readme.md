@@ -16,16 +16,23 @@ This script is designed to be straightforward to use, with detailed instructions
 
 ./tuning_script.sh --help
 
-2. To understand the format required to launch the script, please refer to `example.py`. This example demonstrates how to properly set up your Python file for use with the script.
+2. `example.py` serves as a demonstration of the format required to launch the script. Please review this file for guidance. You can directly launch the script with `example.py`.
 
-3. There are two ways to launch this script:
-   (option 1) ./tuning_script.sh [--hyper_param=value] [--base_val=value] [--delta=value] [--mode=mode] [--num_iter=value] [--train_script=path]
-   (option 2) ./tuning_script.sh [--hyper_param_list=[param1,param2,...]] [--val_list=[[val1,val2,...],[val3,val4,...],...]] [--train_script=path]
-for more information, just run ./tuning_script.sh
+3. There are two main ways to launch this script:
+   - **Option 1:** By specifying individual hyperparameters:
+     ```
+     ./tuning_script.sh [--hyper_param=value] [--base_val=value] [--delta=value] [--mode=mode] [--num_iter=value] [--train_script=path]
+     ```
+   - **Option 2:** By specifying lists of hyperparameters and their corresponding values:
+     ```
+     ./tuning_script.sh [--hyper_param_list=[param1,param2,...]] [--val_list=[[val1,val2,...],[val3,val4,...],...]] [--train_script=path]
+     ```
+   For more detailed information on the script's options, simply run `./tuning_script.sh`.
 
-4. For a real-life application of this script, see `train_muzo_resnet_modified.py`. Although this file is not directly executable (but can be executed with `torchshelf`), it serves as an excellent example of how to integrate the script into your workflow. Pay special attention to the "added codeline(x/2)" section for modifications specific to this use case.
+4. For a real-life script example, see `train_muzo_resnet_modified.py`. Although not directly launchable through the script, it can be executed using "torchshelf". Pay special attention to the "added codeline(x/2)" section for integration details.
 
-5. The results of your experiments will be saved in a `.txt` file within the result section, showcasing the practical outcomes achieved with this bash script.
+5. The .txt file located in the results section contains actual experiment results generated with this bash script. It serves as a practical example of the script's output.
 
-Enjoy optimizing your machine learning models with our Hyperparameter Tuning script!
+## Note
+I hope you find this script useful for your hyperparameter tuning tasks!
 
