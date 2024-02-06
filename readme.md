@@ -19,9 +19,9 @@ This script is designed to be straightforward to use, with detailed instructions
 2. To understand the format required to launch the script, please refer to `example.py`. This example demonstrates how to properly set up your Python file for use with the script.
 
 3. There are two ways to launch this script:
-   1. ./tuning_script.sh [--hyper_param=value] [--base_val=value] [--delta=value] [--mode=mode] [--num_iter=value] [--train_script=path]
-   2. ./tuning_script.sh [--hyper_param_list=[param1,param2,...]] [--val_list=[[val1,val2,...],[val3,val4,...],...]] [--train_script=path]
-   for more information, just run ./tuning_script.sh
+   (option 1) ./tuning_script.sh [--hyper_param=value] [--base_val=value] [--delta=value] [--mode=mode] [--num_iter=value] [--train_script=path]
+   (option 2) ./tuning_script.sh [--hyper_param_list=[param1,param2,...]] [--val_list=[[val1,val2,...],[val3,val4,...],...]] [--train_script=path]
+for more information, just run ./tuning_script.sh
 
 4. For a real-life application of this script, see `train_muzo_resnet_modified.py`. Although this file is not directly executable (but can be executed with `torchshelf`), it serves as an excellent example of how to integrate the script into your workflow. Pay special attention to the "added codeline(x/2)" section for modifications specific to this use case.
 
