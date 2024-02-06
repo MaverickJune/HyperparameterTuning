@@ -16,7 +16,7 @@ This script is designed to be straightforward to use, with detailed instructions
    ```
    ./tuning_script.sh --help
    ```
-2. `example.py` serves as a demonstration of the format required to launch the script. Please review this file for guidance. You can directly launch the script with `example.py`.
+2. `example.py` serves as a demonstration of the format(of the python training script) required to launch the script. Please review this file for guidance. You can directly launch the script with `example.py`.
 
 3. There are two main ways to launch this script:
    - **Option 1:** By specifying individual hyperparameters:
