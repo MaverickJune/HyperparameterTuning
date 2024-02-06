@@ -16,11 +16,9 @@ This script is designed to be straightforward to use, with detailed instructions
    ```
    ./tuning_script.sh --help
    ```
-2. `example.py` serves as a demonstration of the format(of the python training script) required to launch the script. Please review this file for guidance. You can directly launch the script with `example.py`.
-<span style="background-color: #FFFF00; color: black; padding: 2px;">example.py serves as a demonstration of the format (of the python training script) required to launch the script. Please review this file for guidance. You can directly launch the script with example.py.</span>
+2. **`example.py` serves as a demonstration of the format(of the python training script) required to launch the script. Please review this file for guidance. You can directly launch the script with `example.py`.**
 
-
-4. There are two main ways to launch this script:
+3. There are two main ways to launch this script:
    - **Option 1:** By specifying individual hyperparameters:
      ```
      ./tuning_script.sh --hyper_param=value --base_val=value --delta=value --mode=mode --num_iter=value --train_script=path
@@ -37,7 +35,7 @@ This script is designed to be straightforward to use, with detailed instructions
      ./tuning_script.sh --hyper_param_list=[SMOOTHING,NUM_QUERY] --val_list=[[1,2],[3,4]] --train_script=example.py
      ```
    For more detailed information on the script's options, simply run `./tuning_script.sh --help`.
-5. All the test results will be stored in a subdirectory `./result`. If `./result` doesn't exist, it will automatically be created.
+4. All the test results will be stored in a subdirectory `./result`. If `./result` doesn't exist, it will automatically be created.
 
 ## Note
 I hope you find this script useful for your hyperparameter tuning tasks!
